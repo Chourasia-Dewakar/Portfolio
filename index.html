@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Portfolio Websites</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">MyPortfolio.</a>
+        <nav class="navbar">
+            <a href="#home" style="--i:1;" class="active">Home</a>
+            <a href="#about" style="--i:2;">About</a>
+            <a href="#skills" style="--i:3;">Skills</a>
+            <a href="#projects" style="--i:4;">Projects</a>
+            <a href="#contact" style="--i:5;">Contact</a>
+        </nav>
+         <!-- Hamburger Menu -->
+    <div class="hamburger-menu">
+        <i class="bx bx-menu"></i>
+    </div>
+    </header>
+
+    <section id="home" class="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Vikas Kumar</h1>
+            <h3>Welcome to my Portfolio site</h3>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>"My name is Vikas Kumar, I am currently Passed Master of Computer Science student at Maharishi University Of Information Technology, Lucknow. 
+                I am passionate about using my skills and knowledge to develop innovative solutions to complex problems."</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=100084675127125" style="--i:7;"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/offical_vikas_chourasia_6394/?hl=en" style="--i:8;"><i class='bx bxl-instagram'></i></a>
+                <a href="https://linkedin.com/in/vikas-kumar-4b8781214" style="--i:9;"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Chourasia-Dewakar" style="--i:10;"><i class='bx bxl-github'></i></a>
+            </div>
+            <br>
+            <a href="https://drive.google.com/file/d/1AwRFiApGlZO2lG3f5oJAdqEDha65oUtV/view?usp=drive_link" class="btn">Download Resume</a>
+        </div>
+        <div class="profile-photo">
+            <img src="profile-photo.jpg" alt="Vikas Kumar">
+        </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a beginner web developer. I have learned basic web development skills like HTML, CSS, and JavaScript. 
+            I am excited to keep learning and build my skills in the future.<br>
+            I also work on development using modern tools like HTML, CSS, and Bootstrap, blending creativity and technology to bring ideas to life. I'm always eager to learn and contribute to meaningful projects.</p>
+
+        <div class="about-skills">
+            <div class="skill">
+                <input type="checkbox" id="html" class="skill-checkbox" checked>
+                <label for="html">HTML</label>
+            </div>
+            <div class="skill">
+                <input type="checkbox" id="css" class="skill-checkbox" checked>
+                <label for="css">CSS</label>
+            </div>
+            <div class="skill">
+                <input type="checkbox" id="javascript" class="skill-checkbox" checked>
+                <label for="javascript">JavaScript</label>
+            </div>
+            <div class="skill">
+                <input type="checkbox" id="mysql" class="skill-checkbox" checked>
+                <label for="mysql">MySQL</label>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <p>This is my skill:</p>
+        <div class="skills-container">
+            <div class="skill">
+                <i class="bx bxl-html5"></i>
+                <h3>HTML</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <i class="bx bxl-css3"></i>
+                <h3>CSS</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <i class="bx bxl-javascript"></i>
+                <h3>JavaScript</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <i class="bx bxl-mysql"></i>
+                <h3>MySQL</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 75%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you have any questions or would like to work together, feel free to reach out!</p>
+        <form action="https://formspree.io/f/your-email-here" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="subject" placeholder="Subject">
+            <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <footer>
+        <div class="footer-content">
+            <p>© 2024 Vikas Kumar. All Rights Reserved.</p>
+            <div class="social-media-footer">
+                <a href="https://www.facebook.com/profile.php?id=100084675127125" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/offical_vikas_chourasia_6394/?hl=en" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://linkedin.com/in/vikas-kumar-4b8781214" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Chourasia-Dewakar" target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
